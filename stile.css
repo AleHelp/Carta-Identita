@@ -1,0 +1,109 @@
+
+.box {
+	position: relative;
+	display: block;
+	background-color: lightblue;
+	border: 6px solid black;
+	border-radius: 20px;
+	max-width: 17em;
+	max-height: 50em;
+	padding: 15px;
+	font-family: Arial, sans-serif;
+}
+
+.text {
+	display: inline-block;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.linkFronte {
+	display: inline;
+	position: relative;
+	font-size: 15px;
+	font-family: italic;
+}
+
+.text2 {
+	display: inline;
+	position: relative;
+	font-size: 10px;
+    left: 150px;
+	bottom: 125px;
+	font-family: italic;
+}
+
+@media only screen and (min-width: 600px) {
+
+	.box {
+		position: relative;
+		display: block;
+		border: 6px solid black;
+		border-radius: 20px;
+		max-width: 40em;
+		max-height: 25em;
+		padding: 15px;
+		font-family: Arial, sans-serif;	
+	}
+
+	.text {
+		display: inline-block;
+		font-size: 13px;
+		font-style: italic;
+	}
+	
+	.text2 {
+		display: inline;
+		position: relative;
+		font-size: 13px;
+		left:300px;
+		bottom: 145px;
+		font-family: italic;
+	}
+
+	.linkFronte {
+		display: block;
+		position: relative;
+		font-size: 13px;
+		bottom: 125px;
+		font-family: italic;
+	}
+}
+@media only screen and (min-width: 1024px) {
+
+	.box {
+		position: relative;
+		display: block;
+		border: 6px solid black;
+		border-radius: 20px;
+		max-width: 45em;
+		max-height: 25em;
+		padding: 15px;
+		font-family: Arial, sans-serif;	
+	}
+
+	.text {
+		display: inline-block;
+		font-size: 15px;
+		font-style: italic;
+	}
+	
+	.text2 {
+		display: inline;
+		position: relative;
+		font-size: 15px;
+		left:300px;
+		bottom: 155px;
+		font-family: italic;
+	}
+
+	.linkFronte {
+		display: block;
+		position: relative;
+		font-size: 15px;
+		bottom: 155px;
+		font-family: italic;
+	}
+
+}
+
